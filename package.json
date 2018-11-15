@@ -1,0 +1,38 @@
+{
+  "name": "hapi-ts",
+  "version": "0.0.0",
+  "description": "TypeScript decorators for HapiJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && mocha dist/tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mraronsimon/hapi-ts.git"
+  },
+  "keywords": [
+    "hapi",
+    "typescript",
+    "ts",
+    "decorator",
+    "controller",
+    "mvc"
+  ],
+  "author": "Áron Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mraronsimon/hapi-ts/issues"
+  },
+  "homepage": "https://github.com/mraronsimon/hapi-ts#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.8",
+    "@types/request": "^2.48.1"
+  },
+  "dependencies": {
+    "hapi": "^17.7.0",
+    "request": "^2.88.0"
+  }
+}
